@@ -61,8 +61,6 @@ $ git init
 결과 >> Initialized empty Git repository in C:/Users/곽기용/sample/.git/
 ```
 
----
-
 <br>
 
 >### 현재 상태 확인
@@ -82,10 +80,6 @@ black
 white
 nothing added to commit but untracked files present (use "git add" to track)
 ```
-
-  
-
----
 
 <br>
 
@@ -112,8 +106,6 @@ new file: black
 
 new file: white
 ```
-
----
 
 <br>  
 
@@ -215,8 +207,6 @@ delete mode 100644 black
 create mode 100644 purple
 ```
 
----
-
 <br>
 
 >### 이력 확인
@@ -262,15 +252,12 @@ first test commit
 
 ```
 
----
 
 <br>
 
 >### 과거 commit 으로 돌아가기
 
 <br>
-
-  
 
 -  `git reset [<commit>] [--soft | --mixed [-N] | --hard | --merge | --keep]` 
 : 특정 커밋까지 이력을 초기화합니다. 바로 전, 또는 n번 전까지 작업했던 내용을 취소할 수 있습니다.
@@ -356,6 +343,7 @@ delete mode 100644 purple
 
 ## 3. Git의 작업 분기 관련 명령어
 
+<br>
 
 >### 브랜치 생성
 
@@ -379,8 +367,6 @@ $ git switch -c add-color
 Switched to a new branch 'add-color'
 ```
 
----
-
 <br>
 
 >### 새로운 브랜치에서 작업
@@ -403,8 +389,6 @@ create mode 100644 green
 
 create mode 100644 red
 ```
-
----
 
 <br>  
 
@@ -447,8 +431,6 @@ $ git commit -m "update red" // 커밋
 1 file changed, 1 insertion(+)
 ```
 
----
-
 <br>
 
 >### 브랜치 합치기
@@ -486,8 +468,6 @@ create mode 100644 green
 
 create mode 100644 red
 ```
-
----
 
  <br> 
 
@@ -591,8 +571,6 @@ To https://github.com/kiyong94/sample.git
 branch 'main' set up to track 'origin/main'.
 ```
 
----
-
 <br>
 
 >### 새 커밋 Push
@@ -636,8 +614,6 @@ To https://github.com/kiyong94/sample.git
 
 9ab301d..97cadb2 main -> main
 ```
-
----
 
 <br>
 
@@ -708,8 +684,6 @@ To https://github.com/kiyong94/sample.git
 
 97cadb2..c4b0f3d main -> main
 ```
-
----
 
 <br>
 
