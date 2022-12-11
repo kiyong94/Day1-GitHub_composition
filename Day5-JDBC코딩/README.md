@@ -31,14 +31,14 @@
 
 ![사진2-1](img/2-1.PNG)
 
----
+<br>
 
 > `CSVRead.java`
 
 : `월드컵 명단.csv` 파일의 데이터를 읽어온 후에 JDBC(MySql-Connector 8.0.30)를 사용하여 DB와 연결
 및 `INSERT`문을 실행하여 데이터 입력하는 파일.
 
----
+<br>
 
 > `UserBean.java`
 
