@@ -732,4 +732,4 @@ black blue green navy purple red white 			// purple 파일이 생긴 것을 확�
 ```
 
 - 원격 저장소와 로컬 저장소의 차이가 커지면 나중에 충돌이 많이 발생함.
--  그러므로 `git Pull`은 자주 수행하는 것이 좋습니다.
+	- 그러므로 `git Pull`은 자주 수행하는 것이 좋습니다.
